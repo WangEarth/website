@@ -1,0 +1,35 @@
+.div1 {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 40px;
+  border-radius: 80px;
+}
+
+.div2 {
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 15px;
+  line-height: 1.7;
+  border-radius: 80px;
+}
+
+.div3 {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+  border-radius: 80px;
+}
+
+.img1 {
+  border-radius: 80px;
+}
+
+.p1 {
+  font-size: 15px;
+}
+
+.div21 {
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}

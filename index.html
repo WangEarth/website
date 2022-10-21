@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="description" content="王小鸭的个人网站" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="div1">
+      <a href="https://www.midorg.com" target="_blank">
+        <img alt="苹果" src="apple.png" width="80px" height="80px" title="点击有惊喜!" class="img1" />
+      </a>
+      <p>王小鸭</p>
+    </div>
+    <div class="div2 div21">
+      <h2>关于我：</h2>
+      <p>大家好，我叫王同学，是一名六年级小学生，这是我按照Bilibili up主@康文昌 的教程做的一个网站</p>
+      <p>本人接触编程时间很短</p>
+      <p>如有人关注到我的话，请多多指教我这个小学生: Bilibili @台风温黛</p>
+      <h2>下面是进一步介绍：</h2>
+      <p>我最初的对于“编程”的认知是从小学四年级信息课开始的。</p>
+      <p>这时的编程太初级了，就只是一些图形化界面操作而已。</p>
+      <p>我对编程的进一步认知是康文昌老师的编程课，下面是他创始的元岛的介绍</p>
+      <p>(也可点击苹果图片以及底部栏“友情赞助”按钮查看)：</p>
+      <img src="midlogo.png" alt="元岛logo" title="元岛logo" width="160px" height="160px" />
+      <p class="p1">“嗨~欢迎来到元岛!<br />
+        元岛是一个学习型DAO (分布式自治组织) 社区<br />
+        元岛有永久免费的新时代课程和团结互助的社群<br />
+        你可以将元岛视为在线大学，有课程，有小组，有班级，有社团，等等<br />
+        你可以将元岛视为游戏，写作业和参与活动都能获得经验值或积分，等级高的同学不仅能登上榜单，更能获得实际奖励<br />
+        你可以将元岛视为无边界公司，可以自行或和他人合作进行商业项目<br />
+        你也可以将元岛视为社区，这里都是一些团结友爱、热爱学习和积极向上的小伙伴，认识大家扩展你的生活边界”
+      </p>
+    </div>
+    <div class="div3">
+      <p>Copyright &copy; https://lovewjb.github.io/website</p>
+      <a href="https://www.midorg.com" target="_blank">友情赞助</a>
+    </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  </body>
+</html>
