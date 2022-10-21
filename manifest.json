@@ -74,6 +74,12 @@
       "src": "favicon-16x16-seochecker-manifest-5421.png",
       "type": "image/png",
       "sizes": "16x16"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "prefer_related_applications": false
