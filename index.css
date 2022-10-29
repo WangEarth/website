@@ -1,17 +1,17 @@
-.div1 {
+.header {
   background-color: #f1f1f1;
   text-align: center;
   padding: 40px;
 }
 
-.div2 {
+.main {
   max-width: 760px;
   margin: 30px auto;
   padding: 15px;
   line-height: 1.7;
 }
 
-.div3 {
+.footer {
   background-color: #f1f1f1;
   text-align: center;
   padding: 40px;
@@ -27,7 +27,7 @@
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
 }
 
-div {
+header,main,footer {
   border-radius: 80px;
 }
 
