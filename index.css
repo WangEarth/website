@@ -27,7 +27,9 @@
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
 }
 
-header,main,footer {
+header,
+main,
+footer {
   border-radius: 80px;
 }
 
@@ -36,4 +38,8 @@ header,main,footer {
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 1.0));
   border-radius: 80px;
+}
+
+.p {
+  color: #666;
 }
