@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="王小鸭的个人网站" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#f1f1f1" />
+    <title>王小鸭的个人网站</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/Calculator.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+  </head>
+  <body>
+    <div class="banner">
+      <h2>
+        简 易 计 算 器
+      </h2>
+    </div>
+    <br />
+    <div class="content">
+      <input type="button" value="清 除" class="clear" onclick="clearValue()" />
+      <input type="text" id="result" readonly="readonly" placeholder="运 算 结 果 显 示" />
+      <br />
+      <input type="button" value="1" class="number" onclick="get(this.value)" />
+      <input type="button" value="2" class="number" onclick="get(this.value)" />
+      <input type="button" value="3" class="number" onclick="get(this.value)" />
+      <input type="button" value="+" class="symbol" onclick="get(this.value)" />
+      <br />
+      <input type="button" value="4" class="number" onclick="get(this.value)" />
+      <input type="button" value="5" class="number" onclick="get(this.value)" />
+      <input type="button" value="6" class="number" onclick="get(this.value)" />
+      <input type="button" value="-" class="symbol" onclick="get(this.value)" />
+      <br />
+      <input type="button" value="7" class="number" onclick="get(this.value)" />
+      <input type="button" value="8" class="number" onclick="get(this.value)" />
+      <input type="button" value="9" class="number" onclick="get(this.value)" />
+      <input type="button" value="*" class="symbol" onclick="get(this.value)" />
+      <br />
+      <input type="button" value="0" class="number" onclick="get(this.value)" />
+      <input type="button" value="." class="symbol" onclick="get(this.value)" />
+      <input type="button" value="/" class="symbol" onclick="get(this.value)" />
+      <input type="button" value="=" class="calculate" onclick="calculate()" />
+    </div>
+    <br />
+    <script src="js/Calculator.js"></script>
+  </body>
+</html>
